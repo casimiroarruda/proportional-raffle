@@ -2,3 +2,6 @@
 /.idea/
 /contacts.csv
 /vendor/
+/bin/pds-skeleton
+/bin/php-parse
+/bin/phpmetrics
