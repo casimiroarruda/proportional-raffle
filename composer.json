@@ -1,0 +1,29 @@
+{
+    "name": "duodraco/proportional-raffle",
+    "description": "Simple project for diversity and open communities",
+    "type": "project",
+    "require": {
+        "pds/skeleton": "^1",
+        "symfony/console": "^3.3"
+    },
+    "require-dev": {
+        "phpmetrics/phpmetrics": "^2.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anderson Casimiro",
+            "email": "duodraco@gmaill.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Duodraco\\": "src/Duodraco"
+        }
+    },
+    "config":{
+        "bin-dir": "bin/"
+    }
+}
